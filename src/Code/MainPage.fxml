@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Code.MenuGame">
+   <children>
+      <ImageView fitHeight="402.0" fitWidth="368.0" opacity="0.11" pickOnBounds="true">
+         <image>
+            <Image url="@Tic-Tac-Toe-by-Cecil-Beaton.png" />
+         </image>
+      </ImageView>
+      <Button id="options" layoutX="32.0" layoutY="14.0" mnemonicParsing="false" onAction="#Click" prefHeight="118.0" prefWidth="305.0" stylesheets="@tictactoe.css" text="New Game" textFill="#3aa8c1">
+         <font>
+            <Font name="Jokerman" size="43.0" />
+         </font>
+      </Button>
+      <Button id="options" layoutX="32.0" layoutY="142.0" mnemonicParsing="false" onAction="#onSetting" prefHeight="118.0" prefWidth="305.0" stylesheets="@tictactoe.css" text="Setting" textFill="#3aa8c1">
+         <font>
+            <Font name="Jokerman" size="43.0" />
+         </font>
+      </Button>
+      <Button id="options" layoutX="42.0" layoutY="270.0" mnemonicParsing="false" onAction="#onAbout" prefHeight="118.0" prefWidth="305.0" stylesheets="@tictactoe.css" text="About" textFill="#3aa8c1">
+         <font>
+            <Font name="Jokerman" size="43.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

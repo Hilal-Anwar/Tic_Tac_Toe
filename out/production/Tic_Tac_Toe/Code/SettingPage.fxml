@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="402.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Code.Setting">
+   <ImageView fitHeight="402.0" fitWidth="381.0" opacity="0.11" pickOnBounds="true">
+      <Image url="@Tic-Tac-Toe-by-Cecil-Beaton.png" />
+   </ImageView>
+   <Label layoutX="130.0" layoutY="39.0" text="Settings" underline="true">
+      <font>
+         <Font name="Jokerman" size="33.0" />
+      </font>
+   </Label>
+   <Label layoutX="4.0" layoutY="174.0" prefHeight="47.0" prefWidth="114.0" text="Levels :" underline="true">
+      <font>
+         <Font name="Jokerman" size="20.0" />
+      </font>
+   </Label>
+   <RadioButton fx:id="radio_3X3" layoutX="9.0" layoutY="226.0" mnemonicParsing="false" onAction="#selectLevel" selected="true" stylesheets="@tictactoe.css" text="(3 x 3)">
+      <font>
+         <Font name="Jokerman" size="15.0" />
+      </font>
+   </RadioButton>
+   <RadioButton fx:id="radio_4X4" layoutX="133.0" layoutY="226.0" mnemonicParsing="false" onAction="#selectLevel" stylesheets="@tictactoe.css" text="(4 x 4)">
+      <font>
+         <Font name="Jokerman" size="15.0" />
+      </font>
+   </RadioButton>
+   <RadioButton fx:id="radio_5X5" layoutX="258.0" layoutY="226.0" mnemonicParsing="false" onAction="#selectLevel" stylesheets="@tictactoe.css" text="(5 x 5)">
+      <font>
+         <Font name="Jokerman" size="15.0" />
+      </font>
+   </RadioButton>
+   <Label layoutX="9.0" layoutY="250.0" prefHeight="47.0" prefWidth="114.0" text="Sound :" underline="true">
+      <font>
+         <Font name="Jokerman" size="20.0" />
+      </font>
+   </Label>
+   <RadioButton fx:id="on" layoutX="6.0" layoutY="303.0" mnemonicParsing="false" onAction="#soundController" selected="true" stylesheets="@tictactoe.css" text="ON">
+      <font>
+         <Font name="Jokerman" size="15.0" />
+      </font>
+   </RadioButton>
+   <RadioButton fx:id="off" layoutX="128.0" layoutY="303.0" mnemonicParsing="false" onAction="#soundController" stylesheets="@tictactoe.css" text="OFF">
+      <font>
+         <Font name="Jokerman" size="15.0" />
+      </font>
+   </RadioButton>
+   <Button layoutX="-1.0" mnemonicParsing="false" onAction="#BackToMainMenu" prefHeight="65.0" prefWidth="67.0" style="-fx-background-color: transparent;">
+      <graphic>
+         <ImageView fitHeight="63.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@BackIcon.png" />
+         </ImageView>
+      </graphic>
+   </Button>
+   <Label layoutX="4.0" layoutY="92.0" prefHeight="47.0" prefWidth="253.0" text="Choose your opponent :" underline="true">
+      <font>
+         <Font name="Jokerman" size="20.0" />
+      </font>
+   </Label>
+   <RadioButton fx:id="computer" layoutX="8.0" layoutY="147.0" mnemonicParsing="false" onAction="#chooseOpponent" selected="true" stylesheets="@tictactoe.css" text="Computer">
+      <font>
+         <Font name="Jokerman" size="15.0" />
+      </font>
+   </RadioButton>
+   <RadioButton fx:id="other" layoutX="130.0" layoutY="148.0" mnemonicParsing="false" onAction="#chooseOpponent" stylesheets="@tictactoe.css" text="other">
+      <font>
+         <Font name="Jokerman" size="15.0" />
+      </font>
+   </RadioButton>
+</AnchorPane>

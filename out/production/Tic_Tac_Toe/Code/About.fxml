@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="408.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Code.About">
+   <children>
+      <ImageView fitHeight="409.0" fitWidth="368.0" opacity="0.17" pickOnBounds="true">
+         <image>
+            <Image url="@seamless-texture-with-tic-tac-toe-vector_Xyx2l8_SB_PM.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="74.0" layoutX="73.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Tic-Tac-Toe-Game-red.png" />
+         </image>
+      </ImageView>
+      <Button layoutY="-1.0" mnemonicParsing="false" onAction="#BackToMainMenu" prefHeight="43.0" prefWidth="29.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="90.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@BackIcon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="148.0" layoutY="38.0" text="About" textFill="#901d21">
+         <font>
+            <Font name="Jokerman" size="42.0" />
+         </font>
+      </Label>
+      <Label layoutY="105.0" prefHeight="304.0" prefWidth="369.0" text="                        GNU LESSER GENERAL PUBLIC LICENSE&#10;                                   Version 3, 29 June 2007&#10;&#10; Copyright (C) 2019-20 Free Software Foundation, Inc. &#10;&lt;http://fsf.org/&gt;&#10; Everyone is permitted to copy and distribute verbatim copies&#10; of this license document, but changing it is not allowed.&#10;&#10;Software version : 1.00&#10;Made using : OpenJDK Runtime Environment&#10;(build 14-jpackage+1-70)&#10;External Libraries : OpenJavafx 14&#10;Publisher : Helal Anwar">
+         <font>
+            <Font name="System Bold" size="12.5" />
+         </font></Label>
+   </children>
+</AnchorPane>

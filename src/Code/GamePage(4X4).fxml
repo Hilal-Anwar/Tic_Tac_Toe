@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="408.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Code.Controller_4X4">
+   <children>
+      <ImageView fitHeight="402.0" fitWidth="368.0" opacity="0.11" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Tic-Tac-Toe-by-Cecil-Beaton.png" />
+         </image>
+      </ImageView>
+      <Button layoutY="24.0" mnemonicParsing="false" onAction="#onClick" prefHeight="95.75" prefWidth="92.0" style="-fx-background-color: transparent;" textFill="BLUE">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="92.0" layoutY="24.0" mnemonicParsing="false" onAction="#onClick" prefHeight="95.75" prefWidth="92.0" style="-fx-background-color: transparent;" textFill="BLUE">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="184.0" layoutY="24.0" mnemonicParsing="false" onAction="#onClick" prefHeight="95.75" prefWidth="92.0" style="-fx-background-color: transparent;" textFill="BLUE">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="276.0" layoutY="24.0" mnemonicParsing="false" onAction="#onClick" prefHeight="95.75" prefWidth="92.0" style="-fx-background-color: transparent;" textFill="BLUE">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutY="120.0" mnemonicParsing="false" onAction="#onClick" prefHeight="95.75" prefWidth="92.0" style="-fx-background-color: transparent;" textFill="BLUE">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutY="216.0" mnemonicParsing="false" onAction="#onClick" prefHeight="95.75" prefWidth="92.0" style="-fx-background-color: transparent;" textFill="BLUE">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutY="312.0" mnemonicParsing="false" onAction="#onClick" prefHeight="95.75" prefWidth="92.0" style="-fx-background-color: transparent;" textFill="BLUE">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="92.0" layoutY="120.0" mnemonicParsing="false" onAction="#onClick" prefHeight="95.75" prefWidth="92.0" style="-fx-background-color: transparent;" textFill="BLUE">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="92.0" layoutY="216.0" mnemonicParsing="false" onAction="#onClick" prefHeight="95.75" prefWidth="92.0" style="-fx-background-color: transparent;" textFill="BLUE">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="92.0" layoutY="312.0" mnemonicParsing="false" onAction="#onClick" prefHeight="95.75" prefWidth="92.0" style="-fx-background-color: transparent;" textFill="BLUE">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="184.0" layoutY="120.0" mnemonicParsing="false" onAction="#onClick" prefHeight="95.75" prefWidth="92.0" style="-fx-background-color: transparent;" textFill="BLUE">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="276.0" layoutY="120.0" mnemonicParsing="false" onAction="#onClick" prefHeight="95.75" prefWidth="92.0" style="-fx-background-color: transparent;" textFill="BLUE">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="184.0" layoutY="216.0" mnemonicParsing="false" onAction="#onClick" prefHeight="95.75" prefWidth="92.0" style="-fx-background-color: transparent;" textFill="BLUE">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="276.0" layoutY="216.0" mnemonicParsing="false" onAction="#onClick" prefHeight="95.75" prefWidth="92.0" style="-fx-background-color: transparent;" textFill="BLUE">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="184.0" layoutY="312.0" mnemonicParsing="false" onAction="#onClick" prefHeight="95.75" prefWidth="92.0" style="-fx-background-color: transparent;" textFill="BLUE">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="276.0" layoutY="312.0" mnemonicParsing="false" onAction="#onClick" prefHeight="95.75" prefWidth="92.0" style="-fx-background-color: transparent;" textFill="BLUE">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Button>
+      <MenuBar layoutY="-1.0" prefHeight="25.0" prefWidth="368.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Game">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#newGameClick" text="New Game" />
+                  <MenuItem mnemonicParsing="false" onAction="#BackToMainMenu" text="Main Menu" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Line endX="263.0" endY="-32.0" layoutX="101.0" layoutY="145.0" startX="-97.70712280273438" startY="-19.0" stroke="DARKRED" strokeWidth="3.0" />
+      <Line endX="257.878662109375" endY="-65.0" layoutX="109.0" layoutY="271.0" startX="-104.0" startY="-46.0" stroke="DARKRED" strokeWidth="3.0" />
+      <Line endX="256.0" endY="-53.0" layoutX="106.0" layoutY="359.0" startX="-99.0" startY="-39.0" stroke="DARKRED" strokeWidth="3.0" />
+      <Line endX="-19.0" endY="-125.0" layoutX="111.0" layoutY="155.0" startX="-19.0" startY="247.0" stroke="DARKRED" strokeWidth="3.0" />
+      <Line endX="-19.0" endY="-125.0" layoutX="204.0" layoutY="155.0" startX="-19.0" startY="247.0" stroke="DARKRED" strokeWidth="3.0" />
+      <Line endX="-19.0" endY="-125.0" layoutX="295.0" layoutY="154.0" startX="-19.0" startY="247.0" stroke="DARKRED" strokeWidth="3.0" />
+   </children>
+</AnchorPane>

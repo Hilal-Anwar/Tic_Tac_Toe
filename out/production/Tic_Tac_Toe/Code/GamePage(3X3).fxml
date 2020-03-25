@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="402.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Code.Controller_3X3">
+    <ImageView fitHeight="377.0" fitWidth="369.0" layoutY="25.0" opacity="0.11" pickOnBounds="true">
+        <Image url="@Tic-Tac-Toe-by-Cecil-Beaton.png" />
+    </ImageView>
+    <MenuBar layoutY="1.0" prefHeight="25.0" prefWidth="368.0">
+        <Menu mnemonicParsing="false" text="Game">
+            <MenuItem mnemonicParsing="false" onAction="#newGameClick" text="New Game" />
+         <MenuItem mnemonicParsing="false" onAction="#BackToMainMenu" text="Main Menu" />
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+            <MenuItem mnemonicParsing="false" text="Game Help" />
+        </Menu>
+    </MenuBar>
+    <Button id="b1" fx:id="butt1" layoutY="26.0" mnemonicParsing="false" onAction="#onClick" prefHeight="125.66" prefWidth="122.66" style="-fx-background-color: transparent;" textFill="BLUE">
+        <font>
+          <Font name="Bowlby One SC Regular" size="42.0" />
+        </font>
+    </Button>
+    <Button id="b2" fx:id="butt2" layoutX="125.0" layoutY="26.0" mnemonicParsing="false" onAction="#onClick" prefHeight="125.66" prefWidth="122.66" style="-fx-background-color: transparent;" textFill="BLUE">
+        <font>
+          <Font name="Bowlby One SC Regular" size="42.0" />
+        </font>
+    </Button>
+    <Button id="b3" fx:id="butt3" layoutX="246.0" layoutY="26.0" mnemonicParsing="false" onAction="#onClick" prefHeight="125.66" prefWidth="122.66" style="-fx-background-color: transparent;" textFill="BLUE">
+        <font>
+          <Font name="Bowlby One SC Regular" size="42.0" />
+        </font>
+    </Button>
+    <Button id="b4" fx:id="butt4" layoutY="150.0" mnemonicParsing="false" onAction="#onClick" prefHeight="125.66" prefWidth="122.66" style="-fx-background-color: transparent;" textFill="BLUE">
+        <font>
+          <Font name="Bowlby One SC Regular" size="42.0" />
+        </font>
+    </Button>
+    <Button id="b5" fx:id="butt5" layoutX="123.0" layoutY="152.0" mnemonicParsing="false" onAction="#onClick" prefHeight="125.66" prefWidth="122.66" style="-fx-background-color: transparent;" textFill="BLUE">
+        <font>
+          <Font name="Bowlby One SC Regular" size="42.0" />
+        </font>
+    </Button>
+    <Button id="b6" fx:id="butt6" layoutX="246.0" layoutY="152.0" mnemonicParsing="false" onAction="#onClick" prefHeight="125.66" prefWidth="122.66" style="-fx-background-color: transparent;" textFill="BLUE">
+        <font>
+          <Font name="Bowlby One SC Regular" size="42.0" />
+        </font>
+    </Button>
+    <Button id="b7" fx:id="butt7" layoutY="276.0" mnemonicParsing="false" onAction="#onClick" prefHeight="125.66" prefWidth="122.66" style="-fx-background-color: transparent;" textFill="BLUE">
+        <font>
+          <Font name="Bowlby One SC Regular" size="42.0" />
+        </font>
+    </Button>
+    <Button id="b8" fx:id="butt8" layoutX="123.0" layoutY="276.0" mnemonicParsing="false" onAction="#onClick" prefHeight="125.66" prefWidth="122.66" style="-fx-background-color: transparent;" textFill="BLUE">
+        <font>
+          <Font name="Bowlby One SC Regular" size="42.0" />
+        </font>
+    </Button>
+    <Button id="b9" fx:id="butt9" layoutX="246.0" layoutY="276.0" mnemonicParsing="false" onAction="#onClick" prefHeight="125.66" prefWidth="122.66" style="-fx-background-color: transparent;" textFill="BLUE">
+        <font>
+          <Font name="Bowlby One SC Regular" size="42.0" />
+        </font>
+    </Button>
+   <Line endX="-65.0" endY="340.0" layoutX="202.0" layoutY="53.0" startX="-79.0" startY="-21.0" stroke="DARKRED" strokeWidth="3.0" />
+   <Line endX="-65.0" endY="342.0" layoutX="318.0" layoutY="51.0" startX="-79.0" startY="-21.0" stroke="DARKRED" strokeWidth="3.0" />
+   <Line endX="255.5" layoutX="106.0" layoutY="152.0" startX="-100.0" stroke="DARKRED" strokeWidth="3.0" />
+   <Line endX="255.5" layoutX="109.0" layoutY="278.0" startX="-100.0" stroke="DARKRED" strokeWidth="3.0" />
+</AnchorPane>
